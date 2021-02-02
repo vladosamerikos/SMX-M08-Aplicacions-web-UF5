@@ -1,0 +1,157 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    border: solid 3px black;
+    text-align: center;
+    margin: auto;
+}
+
+th, td {
+    border: solid 1px black;
+}
+
+p {
+    margin-top: 12px;
+}
+
+html, body, #horari { height: 100%; margin: 0; }
+
+#horari {
+  display: grid;
+  width: 680px;
+  height: 65%;
+  margin: auto;
+  padding: 2px;
+  border:3px solid black;
+  grid-template-columns: 50px auto;
+  grid-template-rows: 45px auto;
+  gap: 2px 2px;
+  grid-template-areas:
+    "espai dill dima dime dij div"
+    "hora1 m7_1 m6_1 m6_2 ang_1 eie_1"
+    "hora2 m7_2 m6_3 m6_4 ang_2 eie_2"
+    "hora3 ang_3 m8_1 tut m7_3 m7_4"
+    "hora4 pat pat pat pat pat"
+    "hora5 m8_2 m8_3 m8_4 m7_5 m7_6"
+    "hora6 m8_5 m8_6 m8_7 m6_5 espai2";
+}
+
+.item {
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+#espai { grid-area: espai; }
+
+#espai2 { grid-area: espai2; }
+
+#dill { 
+    grid-area: dill; 
+    font-weight: bold;   
+}
+
+#dima { 
+    grid-area: dima; 
+    font-weight: bold; 
+}
+
+#dime { 
+    grid-area: dime; 
+    font-weight: bold; 
+}
+
+#dij { 
+    grid-area: dij; 
+    font-weight: bold; 
+}
+
+#div { 
+    grid-area: div; 
+    font-weight: bold; 
+}
+
+#hora1 { 
+    grid-area: hora1; 
+    padding-top: 10px;
+}
+
+#hora2 { 
+    grid-area: hora2; 
+    padding-top: 10px;
+}
+
+#hora3 { 
+    grid-area: hora3; 
+    padding-top: 10px;
+}
+
+#hora4 { 
+    grid-area: hora4; 
+    padding-top: 50px;
+}
+
+#hora5 { 
+    grid-area: hora5; 
+    padding-top: 10px;
+}
+
+#hora6 { 
+    grid-area: hora6; 
+    padding-top: 10px;
+}
+
+#m7_1 { grid-area: m7_1; }
+
+#m6_1 { grid-area: m6_1; }
+
+#m6_2 { grid-area: m6_2; }
+
+#ang_1 { grid-area: ang_1; }
+
+#eie_1 { grid-area: eie_1; }
+
+#m7_2 { grid-area: m7_2; }
+
+#m6_3 { grid-area: m6_3; }
+
+#m6_4 { grid-area: m6_4; }
+
+#ang_2 { grid-area: ang_2; }
+
+#eie_2 { grid-area: eie_2; }
+
+#ang_3 { grid-area: ang_3; }
+
+#m8_1 { grid-area: m8_1; }
+
+#tut { grid-area: tut; }
+
+#m7_3 { grid-area: m7_3; }
+
+#m7_4 { grid-area: m7_4; }
+
+#pat { grid-area: pat; }
+
+#m8_2 { grid-area: m8_2; }
+
+#m8_3 { grid-area: m8_3; }
+
+#m8_4 { grid-area: m8_4; }
+
+#m7_5 { grid-area: m7_5; }
+
+#m7_6 { grid-area: m7_6; }
+
+#m8_5 { grid-area: m8_5; }
+
+#m8_6 { grid-area: m8_6; }
+
+#m8_7 { grid-area: m8_7; }
+
+#m6_5 { grid-area: m6_5; }
+

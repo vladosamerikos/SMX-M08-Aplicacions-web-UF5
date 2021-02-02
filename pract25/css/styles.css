@@ -1,0 +1,38 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(235, 34, 34);
+    height: 50px;
+    margin-bottom: 10px;
+}
+#body{
+    height: 320px;
+    width: 100%;
+}
+aside {
+    background-color: rgb(13, 161, 13);
+    height: 98.129%;
+    width: 20%;
+    float: left;
+}
+#content {
+   width: 78%;
+   float: right;
+   height: 100%;
+}
+nav {
+    background-color: rgb(23, 121, 250);
+    height: 15%;
+    margin-bottom: 10px;
+}
+article {
+    background-color: rgb(250, 180, 50);
+    height: 80%;
+}
+footer {
+    background-color: purple;
+    height: 50px;
+    margin-top: 10px;
+}

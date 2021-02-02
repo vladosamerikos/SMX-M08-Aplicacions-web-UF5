@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    
+}
+#content {
+width: 400px;
+height: 280px;
+display: block;
+margin: auto;
+margin-top: 20%;
+}
+
+#box1 {
+    background-color: red;
+    width: 200px;
+    height: 70px;
+
+}
+#box2 {
+    background-color: blue;
+    width: 200px;
+    height: 70px;
+}
+#box3 {
+    background-color: yellow;
+    height: 140px;
+    width: 100px;
+    float: left;
+}
+#box4 {
+    background-color: rgb(65, 10, 65);
+    height: 70px;
+    width: 100px;
+}
+#box5 {
+    background-color: darkblue;
+    height: 70px;
+    width: 200px;
+}
+#box6 {
+    background-color: rgb(202, 74, 153);
+    height: 70px;
+    width: 100px;
+}
+#box7 {
+    background-color: yellow;
+    height: 70px;
+    width: 100px;
+}
+#box8 {
+    background-color: white;
+    height: 70px;
+    width: 100px;
+}
+#box9 {
+    background-color: rgb(157, 132, 214);
+    height: 70px;
+    width: 100px;
+}
+#box10 {
+    background-color: rgb(100, 47, 17);
+    height: 70px;
+    width: 100px;
+}
+#box11 {
+    background-color: red;
+    height: 70px;
+    width: 100px;
+}
+#box12 {
+    background-color: rgb(110, 12, 12);
+    height: 70px;
+    width: 100px;
+}
+#row {
+    display: flex;
+    flex-direction: row;
+}
+#row2 {
+    display: flex;
+    flex-direction: row;
+}
+#row3 {
+    display: flex;
+    flex-direction: row;
+}
+#row4 {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+#right {
+    float: right;
+}
+
+

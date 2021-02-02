@@ -1,0 +1,56 @@
+table {
+    width: 70%;
+
+}
+* {
+    font-family: robot ;
+    font-size: 13px; 
+}
+body {
+    background-image: url("../img/IMAGEN.png");  
+    background-size: 100%; 
+    background-position: 80% ;
+    background-repeat: no-repeat;
+}
+.p1 {
+    background-color:rgb(155, 255, 155);
+}
+.p2 {
+    background-color:rgb(28, 250, 28);
+}
+.p3 {
+    background-color:rgb(4, 180, 4);
+}
+.p4 {
+    background-color:rgb(9, 204, 139);
+}
+.p5 {
+    background-color:rgb(7, 185, 176);
+}
+.p6 {
+    background-color:rgb(19, 175, 154);
+}
+.p7 {
+    background-color:rgb(0, 128, 167);
+}
+.p8 {
+    background-color:rgb(3, 105, 201);
+}
+.p9 {
+    background-color: rgb(0, 60, 88);
+}
+.p10 {
+    background-color:rgb(7, 5, 107);
+}
+td p:hover {
+    background-color: grey;
+}
+.prim {
+text-decoration: underline;
+}
+.seg {
+    text-decoration: overline;
+}
+.ter {
+    font-weight:  bolder;
+}

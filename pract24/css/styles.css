@@ -1,0 +1,27 @@
+ul {
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI';
+}
+li {
+    background-color: rgb(0, 0, 255);
+    border: white solid 2px;
+    width: 130px;
+    height: 22px;
+}
+.cap_de_setmana {
+    background-color: green;
+    border: white solid 2px;
+    width: 130px;
+    height: 22px;
+    color:white;
+}
+li:hover {
+    border: red solid 2px;
+}
+.cap_de_setmana:hover {
+    border: red solid 2px;
+    background-color: gray;
+    color: black;
+}
