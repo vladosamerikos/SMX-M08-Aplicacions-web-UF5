@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js"></script>
+    <script src="./js/storage.js"></script>
+    <title>Password</title>
+    <style>
+        #form {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        button {
+            border-radius: 15px;
+        }
+
+        #storage {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .button {
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form">
+        <p>Usuari: <input type="text" id="user"></p>
+        <p>Contrasenya: <input type="password" id="pass1" > </p>
+        <p>Repeteix la Contrasenya: <input type="password" id="pass2"> </p>
+        <button onclick="guardar2()">Guardar</button>
+        <button onclick="comprova()">Comprova</button>
+    </div>
+    <div id="storage">
+        <p>Nom: <input type="text" id="nom"></p>
+        <p>Cognom: <input type="text" id="cognom"></p>
+        <input class="button" onclick="guardar()" type="button" value="Guardar dades">
+        <input class="button" onclick="recuperar()" type="button" value="Recuperar dades">
+        <input class="button" onclick="esborrar()" type="button" value="Esborrar dades">
+    </div>
+</body>
+
+</html>
